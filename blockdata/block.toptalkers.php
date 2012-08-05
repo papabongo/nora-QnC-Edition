@@ -1,7 +1,20 @@
 	<h1 class="draghandle">Top Talkers</h1>
 	<p>
+	<table width='100%'>
 	<? 
-$query="SELECT count(*) as cnt from SystemEvents group by FromHost";
+$query="SELECT count(*) as cnt,FromHost from SystemEvents group by FromHost order by cnt desc";
+$res=mysql_query($query);
+while ($row=mysql_fetch_array($res))
+{
+	echo("<tr><td align='left'>");
+	echo($row["FromHost"]);
+	echo("</td><td align='right'>");
+	echo($row["cnt"]);	
+	echo("</td></tr>");
+}		
+		
+		
 
 ?>
+	</table>
 	</p>
