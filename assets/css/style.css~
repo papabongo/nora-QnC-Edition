@@ -1,0 +1,13 @@
+
+
+
+html { overflow-y: scroll; }
+
+
+
+/* set some wrapper values */
+#wrapper{
+	width: 840px;
+	margin: 0 auto 0 auto;
+}
+

@@ -1,0 +1,174 @@
+body
+{
+background-color: #FFFFFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: #333333;
+}
+
+input,select {
+background-color: #FFFFF0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: #333333;
+}
+
+html
+{
+
+background-position: bottom right;
+background-repeat: repeat-y;
+
+margin: 0;
+padding: 0;
+}
+
+a { color: #330000; }
+
+a:link { color: #999999; text-decoration: none; }
+a:visited { color: #999999; text-decoration: none; }
+a:hover { color: #e11212; text-decoration: underline; }
+a:active { color: #C00000; }
+
+.nav
+{
+color: #C00000;
+}
+
+.h1
+{
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: normal;
+font-size: 48px;
+margin: 0;
+padding: 8px 16px 0 8px;
+color: #E0E0E0;
+}
+
+div
+{
+text-align: center;
+border: 0;
+}
+
+.navdiv
+{
+position: absolute;
+z-index: 2;
+background-color: #FFFFFF;
+border-top: 1px solid #C0C0C0;
+border-bottom: 1px solid #C0C0C0;
+text-align: left;
+top: 3%;
+left: 0px;
+width: 15%;
+}
+
+.navdiv a
+{
+margin: 0px 0px 0px 11px;
+}
+
+.big-div
+{
+position: absolute;
+z-index: 0;
+/* background-image: url(images/seagull2.jpg); */
+/* background-position: bottom right; */
+/* background-repeat: no-repeat; */
+background-color: transparent;
+border: 1px solid #C0C0C0;
+text-align: left;
+width: 84%;
+height: 93%;
+left: 15%;
+top: 3%;
+padding: 0px 0px 0px 0px;
+overflow: auto;
+}
+
+
+.textdiv1
+{
+position: absolute;
+z-index: 1;
+background-color: transparent;
+text-align: left;
+left: 2.5%;
+top: 2.5%;
+width: 95%;
+height: 95%;
+padding: 0px 0px 0px 0px;
+}
+
+.comments
+{
+position: absolute;
+width: 50%;
+z-index: 2;
+left: 25%;
+top: 25%;
+background-color: #F8F8F8;
+border: 1px solid #C00000;
+text-align: left;
+}
+
+.pc1
+{
+position: absolute;
+width: 25%;
+height: 50%;
+z-index: 2;
+left: 25%;
+top: 25%;
+background-color: #F8F8F8;
+border: 1px solid #C00000;
+text-align: left;
+}
+
+.pcdiv2
+{
+position: absolute;
+width: 60%;
+height: 100%;
+z-index: 3;
+left: 20%;
+top: 0%;
+border: 0px dashed #C0C0C0;
+text-align: left;
+}
+
+.copyrightdiv
+{
+position: absolute;
+text-align: center;
+z-index: 3;
+background-color: #F0F0F0;
+font-size: 9px;
+top: 97%;
+left: 15%;
+padding: 0px 0px 0px 0px;
+width: 84%;
+}
+
+.button
+{
+border: 0px;
+width: 80px;
+height: 15px;
+}
+
+.buttonsdiv
+{
+float: right;
+margin-right: 90px;
+margin-top: 110px;
+z-index: 3;
+background-color: #FFFFFF;
+border: 1px solid #C0C0C0;
+text-align: center;
+/* top: 15%; */
+/* right: 7.5%; */
+width: 15%;
+padding: 0px 0px 0px 0px;
+}

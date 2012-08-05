@@ -1,0 +1,13 @@
+/* reset some stuff */
+h1,h2,hr,ul,ins{margin:0px;padding:0px;border: 0px;text-decoration:none;}
+
+html { overflow-y: scroll; }
+
+
+
+/* set some wrapper values */
+#wrapper{
+	width: 840px;
+	margin: 0 auto 0 auto;
+}
+

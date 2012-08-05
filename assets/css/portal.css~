@@ -1,0 +1,75 @@
+#columns .column{
+
+	margin: 0 2px 0 2px;
+	
+	min-height: 200px; /* set a min-height to ensure a target dropzone */
+}
+
+#columns .menu{
+	
+	width: 200px;
+	
+	float: left;
+}
+
+#columns .blocks{
+	
+	width: 49%;
+	
+	float: left;
+}
+
+#columns .sidebar{
+	
+	width: 49%;
+	
+	float: left;
+}
+
+.block .draghandle{
+	cursor: move;
+}
+
+/* all columns */
+#columns .menu div, #columns .blocks div, #columns .sidebar div{
+	
+	background-color: white;
+	
+	 border: 1px solid #ccc;
+	
+	margin-bottom: 5px;
+}
+
+#columns .sidebar div h1, #columns .blocks div h1, #columns .menu div h1 {
+	
+	font-size: 12px;
+	
+	padding: 5px;
+	background-image: url(../../images/blockheader.jpg);
+	
+	background-color: #e0e0e0;
+}
+
+#columns .menu div p, #columns .blocks div p, #columns .sidebar div p{
+	
+	font-size: 11px;
+	
+	padding: 5px;
+}
+
+#columns .menu, #columns .blocks, #columns .sidebar{
+	
+	/* border: 2px solid #F3F3F3; */
+	
+	padding: 2px;
+}
+
+#columns .target {
+	
+	padding: 3px;
+	
+	border: 2px dashed #f99;
+	
+
+}
+
